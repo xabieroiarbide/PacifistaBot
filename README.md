@@ -10,5 +10,5 @@ Robot hau, jatorriz, Bluetooth bidez diseinatu zen, baina, garapenekin, wifi bid
 - Bluetooth
 
 **SOFTWARE**
-
+- Programazioa: [Arduino IDE](https://github.com/OPRobots)
 
