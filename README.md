@@ -5,3 +5,10 @@ Lehenengo robot bat eraikitzeko hasteko, hau aproposena da. ikusten denez robot 
 
 Robot hau, jatorriz, Bluetooth bidez diseinatu zen, baina, garapenekin, wifi bidez kontrolatzea lortu da. Gure kasuan jatorrizko diseinuarekin geratu gara hau da, bluetooh bidez kontrolatzeko. 
 
+**ERABILITAKO KOMUNIKAZIOA:**
+- Kable mini USB
+- Bluetooth
+
+**SOFTWARE**
+
+
