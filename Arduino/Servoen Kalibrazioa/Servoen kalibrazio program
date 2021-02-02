@@ -1,0 +1,36 @@
+//Programa honekin Servo bakoitza kalibratu ahal izango dugu.
+//
+
+#include <Servo.h>
+
+Servo miservo;  // create servo object to control a servo
+
+const int PinControl=4; // pin al que está conectado el servomotor
+int pos_servo = 90;  // posición del servo entre 0 y 180, inicializado a 90
+
+int valor_serie;    // valor leido por serie
+
+void setup() {
+  miservo.attach(PinControl);  
+  Serial.begin(9600); // velocidad de envio de datos por serie
+}
+
+void loop() {
+  if (Serial.available()){
+    valor_serie=Serial.read();
+    switch (valor_serie){
+      case 'a':
+        Serial.print("has pulsado a, el valor del servomotor: ");
+        pos_servo++;
+        Serial.println ("*S"+String(pos_servo)+"*");
+        break;
+      case 'b':
+        Serial.print("has pulsado b, el valor del servomotor: ");
+        pos_servo--;
+        Serial.println ("*S"+String(pos_servo)+"*");
+        break;
+    }
+  }
+  miservo.write(pos_servo);                  // enviar el servo al ángulo indicado
+  delay(15);                           // esperar a que el servo alcance la posición
+}
