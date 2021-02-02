@@ -1,0 +1,32 @@
+  //Programa honekin bluetooth moduluari guk nahi diogun izena eta pasahitza jarri dezakegu.
+  
+ //Konfiguratzeko komandoak:
+          //Konexioa ondo dagoen ikusteko: AT (Bere erantzuna OK izan behar du.)
+          //Izena aldatzeko: AT+NAME=<Izena>  (Bere erantzuna OK izan behar du.)
+          //Kontraseña aldatzeko: AT+PSWD=<"Pin"> (Bere erantzuna OK izan behar du.)
+          //Kontraseña  ikusteko:AT+ PSWD?
+          //Izena ikusteko: AT+NAME?
+
+
+
+#include <SoftwareSerial.h>   // Incluimos la librería  SoftwareSerial  
+SoftwareSerial BT(11,10);    // Definimos los pines RX y TX del Arduino conectados al Bluetooth
+ 
+void setup()
+{
+  BT.begin(9600);       // Inicializamos el puerto serie BT (Para Modo AT 2)velocidad= 38400
+  Serial.begin(9600);   // Inicializamos  el puerto serie  
+}
+ 
+void loop()
+{
+  if(BT.available())    // Si llega un dato por el puerto BT se envía al monitor serial
+  {
+    Serial.write(BT.read());
+  }
+ 
+  if(Serial.available())  // Si llega un dato por el monitor serial se envía al puerto BT
+  {
+     BT.write(Serial.read());
+  }
+}
