@@ -1,5 +1,5 @@
 # PacifistaBot
-Robot hau [OPRobots](https://github.com/OPRobots) diseinatutakoa da, gainera informazio guztia github-ean zintzilikatu dute edozein eraikitzeko edota gehiagogaratzeko eta [ionhsFP](https://github.com/ionhsFP)-en informazitik hartutakoa izan da gure azken proiektu hau.
+Robot hau [OPRobots](https://github.com/OPRobots)-ek diseinatutakoa da, gainera informazio guztia github-ean zintzilikatu dute edozeinek eraikitzeko edota gehiagogaratzeko eta [ionhsFP](https://github.com/ionhsFP)-en informazitik hartutakoa izan da gure azken proiektu hau.
 
 Lehenengo robot bat eraikitzeko hasteko, hau aproposena da. Ikusten denez robot guztia 3D-ko piezas osaturikoa da,gainera, piezak pertsonalizatu ahal dira, robotak nahi den itxura izan dezan. Arduino NANO baten bidez kontrolatzen da, beraz programatzeko Arduino IDE erabiltzen da. PCB plaka soldatzeko erraza da, lekua duelako soldadorea errez mugitzeko..
 
