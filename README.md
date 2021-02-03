@@ -3,7 +3,6 @@ Robot hau [OPRobots](https://github.com/OPRobots) diseinatutakoa da, gainera inf
 
 Lehenengo robot bat eraikitzeko hasteko, hau aproposena da. ikusten denez robot guztia 3D-ko piezas osaturikoa da,gainera, piezak pertsonalizatu ahal dira, Arduino NANO baten bidez programatzen da eta PCB plaka soldatzeko erraza.
 
-[!video de montaje](https://drive.google.com/file/d/10EezfLya-EukxTjCjV9P1Jr0ghWxqBgg/view)
 
 Robot hau, jatorriz, Bluetooth bidez diseinatu zen, baina, garapenekin, wifi bidez kontrolatzea lortu da. Gure kasuan jatorrizko diseinuarekin geratu gara hau da, bluetooh bidez kontrolatzeko. 
 
