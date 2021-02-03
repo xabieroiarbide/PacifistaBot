@@ -7,7 +7,7 @@ Lehenengo robot bat eraikitzeko hasteko, hau aproposena da. Ikusten denez robot 
 Robot hau, jatorriz, Bluetooth bidez diseinatu zen, baina, garapenekin, wifi bidez kontrolatzea lortu da. Gure kasuan jatorrizko diseinuarekin geratu gara hau da, bluetooh bidez kontrolatzeko. 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ElektronikaDonBosco/Kuadro-dinamikoa/blob/master/Irudiak/Captura.PNG">
+  <img width="460" height="300" src="https://github.com/xabieroiarbide/PacifistaBot/blob/main/Argazkiak/IMG_20210203_115501.jpg">
 </p>
 
 
